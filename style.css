@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #E5526A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 2px;
+}
+
+.header img {
+    height: 50px;
+    padding-left: 40px;
+}
+
+.header_title ul {
+    display: flex;
+    gap: 42px;
+    padding-right: 40px;
+}
+
+.header_title a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.main_cont {
+    margin: auto;
+    padding: 30px;
+    width: 80%;
+}
+
+.main_cont h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_cont p {
+    font-size: 22px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
